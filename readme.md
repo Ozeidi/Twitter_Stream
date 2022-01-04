@@ -67,22 +67,13 @@ export PBI_URL=https://api.powerbi.com/beta/XXXXXXXXXXXXXXX
 export BEARER_TOKEN=XXXXXXXXXXXXXXX
 ```
 
-## Installation
-
-1. Clone this repo to your machine.
-
-```sh
-$ git clone https://github.com/Ozeidi/TWITTER_POC.git
-```
-
-
 
 
 ## Usage
 1. Clone this repo to your machine.
 
 ```sh
-git clone https://github.com/Ozeidi/TWITTER_POC.git
+git clone https://github.com/Ozeidi/Twitter_Stream.git
 ```
 
 2. Set the rules to what Data you want to collect from twitter Stream in the: `config/rules.py`. By default, the script will collecting Data related to PDO, Major Telecom Companies and Banks in Oman. To change these rules refer to Twitter's Docs on [Filtered Stream Rules](https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule).
